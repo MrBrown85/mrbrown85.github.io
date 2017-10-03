@@ -4,9 +4,10 @@
 <style>
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 .header, .footer {
-    background-color: grey;
+    background-color: maroon;
     color: white;
     padding: 15px;
 }
@@ -14,11 +15,10 @@
     float: left;
     padding: 15px;
 }
-.more {
-  float: right;
-  
-}
 
+.column img {
+	float: right;
+    }
 
 .clearfix::after {
     content: "";
@@ -31,11 +31,6 @@
 .content {
     width: 75%;
 }
-
-.content img {
-  float: right;
-}
-
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -44,50 +39,40 @@
 .menu li {
     padding: 8px;
     margin-bottom: 8px;
-    background-color: #33b5e5;
+    background-color: teal;
     color: #ffffff;
 }
 .menu li:hover {
     background-color: #0099cc;
 }
-
 </style>
 </head>
 <body>
 
-
 <div class="header">
-  <h1>Chania</h1>
+  <h1>Enver Creek Secondary</h1>
 </div>
 
 <div class="clearfix">
   <div class="column menu">
     <ul>
-        <li><a href="https://mrbrown85.github.io/enver.html">Main Page</a></li>
-      <li><a href="https://mrbrown85.github.io/enver.html">Teams</a></li>
-      <li><a href="https://mrbrown85.github.io/enver.html">Departments</a></li>
-
+      <li>Main Page</li>
+      <li>Clubs and Teams</li>
+      <li>Departments</li>
     </ul>
   </div>
 
   <div class="column content">
-     <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-    <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
-
+    <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>Welcome</h1>
+    <p>Enver Creek Secondary is located in the heart of Surrey, British Columbia.</p>
+    <p>Students who come to Enver Creek Secondary can expect high academic expectations and a focus on community.</p>
   </div>
-  <div class="column content more">
-     <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
-    <h1>The City</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-    <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
-
-  </div>
-  
 </div>
 
 <div class="footer">
   <p>Footer Text</p>
 </div>
+
 </body>
+</html>
